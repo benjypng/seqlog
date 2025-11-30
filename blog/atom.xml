@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://benjypng.github.io/blogseq/blog</id>
+    <title>Blogseq Blog</title>
+    <updated>2025-11-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://benjypng.github.io/blogseq/blog"/>
+    <subtitle>Blogseq Blog</subtitle>
+    <icon>https://benjypng.github.io/blogseq/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>https://benjypng.github.io/blogseq/blog/first-blog-post</id>
+        <link href="https://benjypng.github.io/blogseq/blog/first-blog-post"/>
+        <updated>2025-11-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the first blog post, written from Shimen, in the city of Taipei.]]></summary>
+        <content type="html"><![CDATA[<p>This is the first blog post, written from Shimen, in the city of Taipei.</p>]]></content>
+        <author>
+            <name>Benjamin Png</name>
+            <uri>https://github.com/benjypng</uri>
+        </author>
+    </entry>
+</feed>
