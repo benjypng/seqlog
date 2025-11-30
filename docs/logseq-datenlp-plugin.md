@@ -1,53 +1,94 @@
 # logseq-datenlp-plugin
 
-Documents are **groups of pages** connected through:
+[:gift_heart: Sponsor this project on Github](https://github.com/sponsors/hkgnp) or [:coffee: Get me a coffee](https://www.buymeacoffee.com/hkgnp.dev) if you like this plugin!
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+# Overview
 
-## Create your first Doc
+This super simple plugin uses NLP to parse your content for dates and times so that they can be easily tracked through your yournal pages.
 
-Create a Markdown file at `docs/hello.md`:
+## Toolbar
 
-```md title="docs/hello.md"
-# Hello
+![](/screenshots/toolbar-demo.gif)
 
-This is my **first Docusaurus document**!
+*Navigate*
+
+Click on `Today`, or the left/right chevrons to navigate to today's journal page or the next or previous days'.
+
+*Weekly View*
+
+1. Ensure the correct start day of week is selected in the plugin settings. 
+2. Click on `Week <number>` to navigate to the weekly view.
+3. This will create:
+   - A page in the format `YYYY/Week XX`
+   - Page embeds for all the dates in that week
+
+![](/screenshots/toolbar.png)
+
+
+## Simple Parsing
+
+![](/screenshots/demo.gif)
+
+## Complex Parsing with Scheduled and Deadline options
+
+![](/screenshots/demo2.gif)
+
+## Auto Inline Parsing
+
+As per the video, use `%enable auto-parsing%` to turn on auto parsing (off by default) and `%disable auto-parsing%` to turn it off.
+
+Or, you can just use the hotkey combination `a p` to toggle auto-parsing on and off.
+
+![](/screenshots/demo3.gif)
+
+## Semi-auto Inline Parsing
+
+Like auto inline-parsing, but this time the parsing is triggered only if the date/time language is prefixed with an `@`, `%` or `^`. Without the prefix, the block will not auto-parse. The available prefixes are:
+
+-   `@` is to simply parse the date
+-   `%` converts it to a scheduled item
+-   `^` converts it to a deadline item
+
+You can use the hotkey combination `s p` to toggle semi-auto-parsing on and off. See the video below for instructions:
+
+![](/screenshots/demo6.gif)
+
+## Using the Command Palette
+
+Use `Ctrl + Shift + p` for Windows or `Cmd + Shift + p` for Mac. Then type `@goto` and select the first option that comes up. You will be presented with a search box to enter the day or date you want to go to.
+
+![](/screenshots/demo5.gif)
+
+## Changing languages
+
+Currently, the following languages are supported:
+
+4. German: `de`
+3. French: `fr`
+1. Japanese: `ja`
+2. Dutch: `nl`
+6. Portuguese: `pt`
+5. Russion: `ru`
+7. Chinese: `zh`
+
+Add the following line inside the plugin settings, and change the language accordingly:
+
 ```
-
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
-
-## Configure the Sidebar
-
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
-
-Add metadata to customize the sidebar label and position:
-
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
-
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
     {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
+        "lang": "ja"
+    }
 ```
+
+![](/screenshots/demo4.gif)
+
+# Installation
+
+If the plugin is not available in the marketplace, you can load it manually by downloading the [latest release here](https://github.com/hkgnp/logseq-datenlp-plugin/releases) and manually loading it into Logseq.
+
+# Credits
+
+[SherlockJS](https://github.com/neilgupta/Sherlock)
+
+[Chrono](https://github.com/wanasit/chrono)
+
+Darwis once again for his out of the box thinking
