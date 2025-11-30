@@ -24,6 +24,7 @@ const config: Config = {
   organizationName: "benjypng", // Usually your GitHub org/user name.
   projectName: "blogseq", // Usually your repo name.
   deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
 
