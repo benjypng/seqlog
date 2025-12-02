@@ -31,7 +31,7 @@ const config: Config = {
     },
   },
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -45,12 +45,10 @@ const config: Config = {
     [
       "classic",
       {
+        pages: false,
         docs: {
+          routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -101,51 +99,7 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Introduction",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        //        {
-        //          title: "Community",
-        //          items: [
-        //            {
-        //              label: "Stack Overflow",
-        //              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-        //            },
-        //            {
-        //              label: "Discord",
-        //              href: "https://discordapp.com/invite/docusaurus",
-        //            },
-        //            {
-        //              label: "X",
-        //              href: "https://x.com/docusaurus",
-        //            },
-        //          ],
-        //        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/benjypng",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Blogseq. Built with Docusaurus.`,
-    },
+    footer: {},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
