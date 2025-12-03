@@ -46,11 +46,8 @@ const config: Config = {
       "classic",
       {
         pages: false,
-        docs: {
-          routeBasePath: "/",
-          sidebarPath: "./sidebars.ts",
-        },
         blog: {
+          routeBasePath: "/",
           showReadingTime: true,
           feedOptions: {
             type: ["rss", "atom"],
@@ -64,6 +61,9 @@ const config: Config = {
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
+        },
+        docs: {
+          sidebarPath: "./sidebars.ts",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -85,13 +85,13 @@ const config: Config = {
         src: "img/logo.svg",
       },
       items: [
+        { to: "/", label: "Blog", position: "left" },
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
           label: "Plugin Docs",
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
