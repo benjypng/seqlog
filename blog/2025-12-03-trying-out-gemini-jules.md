@@ -5,11 +5,11 @@ authors: [benjypng]
 
 My OpenAI subscription was ending, and given the recent hype around Nano Banana Pro, I decided to switch over to Gemini. I've never heard of [Jules](https://jules.google.com) but since I am in the midst of documenting my plugins better, I decided to give it a try.
 
+<!--truncate-->
+
 ### Aim
 
 See if it is any good at doing up `README`s for my plguins.
-
-<!--truncate-->
 
 ### Setting Up
 

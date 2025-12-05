@@ -5,11 +5,12 @@ authors: [benjypng]
 
 I have been using Logseq DB for the past 2 weeks across 4 devices: 2 Macbooks, 1 iPad and 1 iPhone. Below are my findings:
 
+<!--truncate-->
+
 ### Stability
 
 Sync has been much more stable across my devices, compared to the MD version. Behaviour is more consistent, and my data syncs more reliably. There are occassions where I've had to manually trigger a sync (using the `Sync Now` button) but other than that, I've not experienced any data loss so far.
 
-<!--truncate-->
 
 ### iOS/iPadOS app
 

@@ -7,11 +7,11 @@ A user on Discord asked about an older plugin that allows a user to insert times
 
 I can't recall what was the older plugin, but given that locally uploaded media files are rendered in HTML, it should be relatively straightforward to derive and set the `currentTime` through the DOM.
 
+<!--truncate-->
+
 ### Scaffolding
 
 The plugin SDK has been updated to `v0.2.8`. I've also decided to use `npm` instead of `pnpm` for development due to stability purposes.
-
-<!--truncate-->
 
 ### Approach
 
