@@ -4,10 +4,30 @@
         <title>Blogseq Blog</title>
         <link>https://benjypng.github.io/blogseq</link>
         <description>Blogseq Blog</description>
-        <lastBuildDate>Wed, 03 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Logseq updates]]></title>
+            <link>https://benjypng.github.io/blogseq/2025/12/06/logseq-updates</link>
+            <guid>https://benjypng.github.io/blogseq/2025/12/06/logseq-updates</guid>
+            <pubDate>Sat, 06 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Across the different platforms (Discord, Reddit, X, Discourse), Discord appears to be the most active. It is also where the team engages most frequently with users. Because activity on the other platforms is comparatively low, it can give the impression that there is limited communication from the developers. However, Logseq remains active as an open-source project, and recent commits on the master branch continue at a steady pace.]]></description>
+            <content:encoded><![CDATA[<p>Across the different platforms (Discord, Reddit, X, Discourse), Discord appears to be the most active. It is also where the team engages most frequently with users. Because activity on the other platforms is comparatively low, it can give the impression that there is limited communication from the developers. However, Logseq remains active as an open-source project, and recent commits on the <a href="https://github.com/logseq/logseq/commits/master/" target="_blank" rel="noopener noreferrer" class="">master branch</a> continue at a steady pace.</p>
+<p>Below are a few updates shared on Discord over the past week that I found noteworthy.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rtc-and-ios-updates">RTC and iOS updates<a href="https://benjypng.github.io/blogseq/2025/12/06/logseq-updates#rtc-and-ios-updates" class="hash-link" aria-label="Direct link to RTC and iOS updates" title="Direct link to RTC and iOS updates" translate="no">​</a></h3>
+<p>ZhiYuan mentioned that an <a href="https://discord.com/channels/725182569297215569/725182570131751005/1446517435103449260" target="_blank" rel="noopener noreferrer" class="">update</a> for RTC and the iOS app is expected soon. At this point, only early testers are using RTC and the rewritten iOS app, and they are aware of the associated instability and data-loss risks. Based on the discussion, it appears that broader availability may be under consideration, though the details are not yet confirmed.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="assets-related-improvements">Assets-related improvements<a href="https://benjypng.github.io/blogseq/2025/12/06/logseq-updates#assets-related-improvements" class="hash-link" aria-label="Direct link to Assets-related improvements" title="Direct link to Assets-related improvements" translate="no">​</a></h3>
+<p>My <a href="https://github.com/benjypng/logseq-zoterolocal-plugin" target="_blank" rel="noopener noreferrer" class="">Zotero plugin</a> currently cannot open PDFs outside the graph within Logseq; they default to the system viewer. Charlie is working on an <a href="https://github.com/logseq/logseq/pull/12244" target="_blank" rel="noopener noreferrer" class="">existing PR</a> that addresses this limitation. If merged, this may improve how external assets are handled.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="notes-on-development-approach">Notes on development approach<a href="https://benjypng.github.io/blogseq/2025/12/06/logseq-updates#notes-on-development-approach" class="hash-link" aria-label="Direct link to Notes on development approach" title="Direct link to Notes on development approach" translate="no">​</a></h3>
+<p>There was a brief discussion between futurized (a former team member) and Tienson regarding architectural direction. It offered some insight into how the team may be thinking about Logseq beyond a conventional note-taking workflow. Tienson commented:</p>
+<blockquote>
+<p>Yes, the core components will help a lot. I believe Logseq db has the most flexible data model so that users can build any frontend on top of it. It's just that there're still a lot work to do, we need to separate logic from ui, remove outdated code, but still, it's the most exciting time for personal software.</p>
+</blockquote>
+<p>From my own experience building plugins, the development environment does feel more stable than before, and the data layer is becoming more accessible.</p>
+<p>I plan to continue posting periodic updates here for readers who are not active on Discord but want visibility into ongoing developments.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Trying out Gemini Jules]]></title>
             <link>https://benjypng.github.io/blogseq/2025/12/03/trying-out-gemini-jules</link>
@@ -75,26 +95,6 @@
 <p>From what I have observed so far, the decision to rewrite the app to use a proper database seems to have its benefits. Users have been frustrated by how long it took, and that communication has not been very consistent. This is in spite of the very <a href="https://github.com/logseq/logseq/commits/master/" target="_blank" rel="noopener noreferrer" class="">active development</a> made by the dev team.</p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="authors-note">Author's Note<a href="https://benjypng.github.io/blogseq/2025/11/28/first-blog-post#authors-note" class="hash-link" aria-label="Direct link to Author's Note" title="Direct link to Author's Note" translate="no">​</a></h4>
 <p>This is the first post of this blog. I hope to add to the discourse around Logseq as an active user and plugin developer, to provide a more accessible and transparent view of Logseq's progress. I am not a member of the development team.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Logseq updates]]></title>
-            <link>https://benjypng.github.io/blogseq/2025/11/06/logseq-updates</link>
-            <guid>https://benjypng.github.io/blogseq/2025/11/06/logseq-updates</guid>
-            <pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Across the different platforms (Discord, Reddit, X, Discourse), Discord appears to be the most active. It is also where the team engages most frequently with users. Because activity on the other platforms is comparatively low, it can give the impression that there is limited communication from the developers. However, Logseq remains active as an open-source project, and recent commits on the master branch continue at a steady pace.]]></description>
-            <content:encoded><![CDATA[<p>Across the different platforms (Discord, Reddit, X, Discourse), Discord appears to be the most active. It is also where the team engages most frequently with users. Because activity on the other platforms is comparatively low, it can give the impression that there is limited communication from the developers. However, Logseq remains active as an open-source project, and recent commits on the <a href="https://github.com/logseq/logseq/commits/master/" target="_blank" rel="noopener noreferrer" class="">master branch</a> continue at a steady pace.</p>
-<p>Below are a few updates shared on Discord over the past week that I found noteworthy.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rtc-and-ios-updates">RTC and iOS updates<a href="https://benjypng.github.io/blogseq/2025/11/06/logseq-updates#rtc-and-ios-updates" class="hash-link" aria-label="Direct link to RTC and iOS updates" title="Direct link to RTC and iOS updates" translate="no">​</a></h3>
-<p>ZhiYuan mentioned that an <a href="https://discord.com/channels/725182569297215569/725182570131751005/1446517435103449260" target="_blank" rel="noopener noreferrer" class="">update</a> for RTC and the iOS app is expected soon. At this point, only early testers are using RTC and the rewritten iOS app, and they are aware of the associated instability and data-loss risks. Based on the discussion, it appears that broader availability may be under consideration, though the details are not yet confirmed.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="assets-related-improvements">Assets-related improvements<a href="https://benjypng.github.io/blogseq/2025/11/06/logseq-updates#assets-related-improvements" class="hash-link" aria-label="Direct link to Assets-related improvements" title="Direct link to Assets-related improvements" translate="no">​</a></h3>
-<p>My <a href="https://github.com/benjypng/logseq-zoterolocal-plugin" target="_blank" rel="noopener noreferrer" class="">Zotero plugin</a> currently cannot open PDFs outside the graph within Logseq; they default to the system viewer. Charlie is working on an <a href="https://github.com/logseq/logseq/pull/12244" target="_blank" rel="noopener noreferrer" class="">existing PR</a> that addresses this limitation. If merged, this may improve how external assets are handled.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="notes-on-development-approach">Notes on development approach<a href="https://benjypng.github.io/blogseq/2025/11/06/logseq-updates#notes-on-development-approach" class="hash-link" aria-label="Direct link to Notes on development approach" title="Direct link to Notes on development approach" translate="no">​</a></h3>
-<p>There was a brief discussion between futurized (a former team member) and Tienson regarding architectural direction. It offered some insight into how the team may be thinking about Logseq beyond a conventional note-taking workflow. Tienson commented:</p>
-<blockquote>
-<p>Yes, the core components will help a lot. I believe Logseq db has the most flexible data model so that users can build any frontend on top of it. It's just that there're still a lot work to do, we need to separate logic from ui, remove outdated code, but still, it's the most exciting time for personal software.</p>
-</blockquote>
-<p>From my own experience building plugins, the development environment does feel more stable than before, and the data layer is becoming more accessible.</p>
-<p>I plan to continue posting periodic updates here for readers who are not active on Discord but want visibility into ongoing developments.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
